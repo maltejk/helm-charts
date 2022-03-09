@@ -3,7 +3,7 @@ on:
   schedule:
     # The "*" (#42, asterisk) character has special semantics in YAML, so this
     # string has to be quoted.
-    - cron: '0/15 * * * *'
+    - cron: '5 3 * * *'
   workflow_dispatch:
 jobs:
   renovate:
@@ -15,4 +15,4 @@ jobs:
         uses: renovatebot/github-action@v32.0.1
         with:
           token: ${{ secrets.RENOVATE_TOKEN }}
-
+          configurationFile: .github/renovate-config.js
