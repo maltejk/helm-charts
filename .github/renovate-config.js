@@ -4,5 +4,6 @@ module.exports = {
   onboarding: false,
   requireConfig: false,
   platform: 'github',
-  autodiscover: true
+  autodiscover: true,
+  autodiscoverFilter: "*-helm/*"
 };
