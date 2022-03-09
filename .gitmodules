@@ -1,6 +1,6 @@
 [submodule "unwebsockify"]
-	path = unwebsockify
+	path = charts/unwebsockify
 	url = https://github.com/maltejk/unwebsockify-helm.git
 [submodule "websockify"]
-	path = websockify
+	path = charts/websockify
 	url = https://github.com/maltejk/websockify-helm.git
