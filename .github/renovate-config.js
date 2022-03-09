@@ -4,6 +4,7 @@ module.exports = {
   onboarding: false,
   requireConfig: false,
   platform: 'github',
-  autodiscover: true,
-  autodiscoverFilter: "*-helm/*"
+  repositories: [
+    'maltejk/helm-charts',
+  ]
 };
