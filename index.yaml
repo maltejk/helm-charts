@@ -2,13 +2,24 @@ apiVersion: v1
 entries:
   unwebsockify-helm:
   - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2022-03-10T20:46:47.655867242Z"
-    description: A Helm chart for installing unwebsockify
-    digest: 668f7d7b160d93203acb543596c7d426b3fd6dd4c3ba021edf6abc4f38bf69cd
+    appVersion: 1.16.0
+    created: "2022-03-10T20:55:37.476611287Z"
+    description: A Helm chart for Kubernetes
+    digest: 840fa755fea50ae8694f6a99dc4386293d5f5a1cc30ca2a937038c428d832b83
     name: unwebsockify-helm
     type: application
     urls:
     - https://github.com/maltejk/helm-charts/releases/download/unwebsockify-helm-0.1.0/unwebsockify-helm-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-10T20:46:47.655876643Z"
+  websockify-helm:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-03-10T20:55:37.584461507Z"
+    description: A Helm chart for Kubernetes
+    digest: 5f14e83467e6eec5802ecca27ea78f4055409b16c286ef2431657bcad4f41a53
+    name: websockify-helm
+    type: application
+    urls:
+    - https://github.com/maltejk/helm-charts/releases/download/websockify-helm-0.1.0/websockify-helm-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-03-10T20:55:37.584465707Z"
